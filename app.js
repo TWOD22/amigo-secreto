@@ -1,4 +1,5 @@
 let listaDeAmigos = [];
+let amigoSecreto = "";
 
 //Asigna texto (elemento HTML, Texto a)
 function asignarTextoElemento (elemento,texto){
@@ -10,11 +11,11 @@ function asignarTextoElemento (elemento,texto){
 
 function ingresarNombre (){
     let nombreSorteo = document.getElementById("amigo").value;
-    console.log(listaDeAmigos);
     if (nombreSorteo == ""){
         asignarTextoElemento ("h2","No Puedes Añadir Un Espacio En Blanco<br>Ingrese un nuevo nombre.")
     } else{
         listaDeAmigos.push(nombreSorteo);
+        console.log(listaDeAmigos);
         asignarTextoElemento("h2", "Nombre añadido correctamente.<br>Ingrese un nuevo nombre." );
         visualizarLista();
         limpiarCaja("#amigo");
@@ -33,4 +34,8 @@ function visualizarLista (){
 
 function limpiarCaja(valor){
     document.querySelector(valor).value = "";
+}
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 }
