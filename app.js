@@ -16,6 +16,8 @@ function ingresarNombre (){
     } else{
         listaDeAmigos.push(nombreSorteo);
         asignarTextoElemento("h2", "Nombre añadido correctamente.<br>Ingrese un nuevo nombre." );
+        visualizarLista();
+        limpiarCaja("#amigo");
     }
 }
 
@@ -25,5 +27,10 @@ function visualizarLista (){
     for ( i = 0; i < listaDeAmigos.length; i++){
         let li = document.createElement("li");
         li.textContent = listaDeAmigos[i];
+        listaHTML.appendChild(li);
     }
+}
+
+function limpiarCaja(valor){
+    document.querySelector(valor).value = "";
 }
