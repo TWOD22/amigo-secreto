@@ -24,16 +24,18 @@ function ingresarNombre (){
         visualizarLista();
         limpiarCaja("#amigo");
     }
+    return;
 }
 
 function visualizarLista (){
     let listaHTML = document.querySelector("ul");
     listaHTML.innerHTML = "";
-    for ( i = 0; i < listaDeAmigos.length; i++){
+    for ( let i = 0; i < listaDeAmigos.length; i++){
         let li = document.createElement("li");
         li.textContent = listaDeAmigos[i];
         listaHTML.appendChild(li);
     }
+    return;
 }
 
 function sorteoLista (){
@@ -44,5 +46,6 @@ function sorteoLista (){
         amigoSecreto = listaDeAmigos[numeroAleatorio];
         asignarTextoElemento("h2",`Tu amigo secreto es: ${amigoSecreto}`);
     }
+    return;
 }
 
