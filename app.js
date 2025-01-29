@@ -11,6 +11,7 @@ function asignarTextoElemento (elemento,texto){
 
 function ingresarNombre (){
     let nombreSorteo = document.getElementById("amigo").value;
+    nombreSorteo = nombreSorteo.toUpperCase(nombreSorteo);
     if (nombreSorteo == ""){
         asignarTextoElemento ("h2","No Puedes Añadir Un Espacio En Blanco<br>Ingrese un nuevo nombre.")
     } else{
@@ -34,8 +35,4 @@ function visualizarLista (){
 
 function limpiarCaja(valor){
     document.querySelector(valor).value = "";
-}
-
-function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 }
