@@ -8,6 +8,9 @@ function asignarTextoElemento (elemento,texto){
     return;
 }
 
+function limpiarCaja(valor){
+    document.querySelector(valor).value = "";
+}
 
 function ingresarNombre (){
     let nombreSorteo = document.getElementById("amigo").value;
@@ -33,6 +36,13 @@ function visualizarLista (){
     }
 }
 
-function limpiarCaja(valor){
-    document.querySelector(valor).value = "";
+function sorteoLista (){
+    if (listaDeAmigos.length==0){
+        asignarTextoElemento("h2","No se puede hacer el sorteo <br> Ingrese un nombre.")
+    }else{
+        let numeroAleatorio = Math.floor(Math.random()*listaDeAmigos.length);
+        amigoSecreto = listaDeAmigos[numeroAleatorio];
+        asignarTextoElemento("h2",`Tu amigo secreto es: ${amigoSecreto}`);
+    }
 }
+
