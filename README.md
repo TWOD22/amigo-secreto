@@ -2,6 +2,8 @@
 
 ### !Sean Bienvenidos al Proyecto Amigo Secreto!🪄🎲
 
+## INDICE
+
 ## DESCRIPCION DEL PROYECTO✨
 
 El proyecto amigo secreto consta de una pagina web en donde puedes agregar una lista de amigos y asi elegir a uno de ellos de forma aleatoria.
@@ -17,4 +19,25 @@ Para hacer uso de **AMIGO SECRETO** debes seguir los siguientes pasos:
 1. Ingresa el nombre de un amigo en el campo de texto.
 2. Al hacer click en el botón **"Añadir"** se agrega el nombre a la lista.
 3. Al hacer click en el botón **"Sortear amigo"** se seleccionara de forma aleatoria un amigo.
+
+## FUNCIONALIDADES 📃
+
+- Puedes añadir el nombre de tus amigos a la lista.
+- Podras visualizar la lista de amigos.
+- Seleccionara a un amigo de manera aleatoria.
+
+## ESTADO DEL PROYECTO
+
+El proyecto se encuentra ya en su fase final cumpliendo con las funcionalidades establecidas.
+
+**Cambios A Futuro**
+
+- Nueva función para resetear el juego con un nuevo botón.
+- Cambios de diseño.
+
+## TECNOLOGIAS UTILIZADAS
+
+- CSS
+- HTML
+- JavaScript
 
