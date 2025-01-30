@@ -50,7 +50,7 @@ El proyecto se encuentra ya en su fase final cumpliendo con las funcionalidades 
 
 ## ACCESO AL PROYECTO 🔗
 
-Podras acceder al proyecto mediante el siguiente enlace:
+Podras acceder al proyecto mediante el siguiente enlace: [https://twod22.github.io/amigo-secreto/]
 
 ## AUTOR 🧑‍💻 
 
