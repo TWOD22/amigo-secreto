@@ -12,7 +12,7 @@ El proyecto amigo secreto consta de una pagina web en donde puedes agregar una l
 
 Para hacer uso de **AMIGO SECRETO** debes seguir los siguientes pasos: 
 
-![Instrucciones del proyecto](assets\Instrucciones.png)
+![Instrucciones del proyecto](assets/Instrucciones.png)
 
 1. Ingresa el nombre de un amigo en el campo de texto.
 2. Al hacer click en el botón **"Añadir"** se agrega el nombre a la lista.
