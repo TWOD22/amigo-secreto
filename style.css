@@ -1,10 +1,11 @@
 :root {
     --color-primary: #4117c0;
-    --color-secondary: #b18e85;
+    --color-secondary: #fac2b4;
     --color-tertiary: #918888;
-    --color-button: #f666f8;
-    --color-button-hover: #643725;
-    --color-text: #0b0000;
+    --color-button: #6666f8;
+    --color-button-hover: #2197ce;
+    --color-text: #000000;
+    --color-texti: #ffffff;
     --color-white: #000000;
 }
 
@@ -55,14 +56,14 @@ body {
 /* Títulos */
 .main-title {
     font-size: 48px;
-    font-family: "Merriweather", serif;
+    font-family: "Georgia", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: var(--color-texti);
 }
 
 .section-title {
-    font-family: "Inter", serif;
+    font-family: "Georgia", serif;
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
@@ -100,14 +101,14 @@ body {
     border: 2px solid #333;
     border-right: none;
     border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
+    font-family: "Georgia", serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilos de botón */
 button {
     padding: 15px 30px;
-    font-family: "Inter", sans-serif;
+    font-family: "Georgia", sans-serif;
     font-size: 16px;
     border: 2px solid #000;
     border-radius: 25px;
@@ -129,7 +130,7 @@ button {
 ul {
     list-style-type: none;
     color: var(--color-text);
-    font-family: "Inter", sans-serif;
+    font-family: "Georgia", sans-serif;
     font-size: 18px;
     margin: 20px 0;
 }
