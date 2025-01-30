@@ -41,3 +41,12 @@ El proyecto se encuentra ya en su fase final cumpliendo con las funcionalidades 
 - HTML
 - JavaScript
 
+## ACCESO AL PROYECTO 
+
+Podras acceder al proyecto mediante el siguiente enlace:
+
+## AUTOR 
+
+**Jairo Alonso Acevedo Hernandez**
+*Estudiante* 
+[GitHub](https://github.com/TWOD22)
