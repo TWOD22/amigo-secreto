@@ -18,6 +18,7 @@ function ingresarNombre (){
         asignarTextoElemento ("h2","NO PUEDES DEJAR ESPACIO EN BLANCO<br>INGRESA UN NOMBRE")
     } else if (/\d/.test(nombreSorteo)){
             asignarTextoElemento ("h2","NO PUEDES ESCRIBIR NUMEROS<br>INGRESA UN NOMBRE")
+            limpiarCaja("#amigo");
     } else {
         listaDeAmigos.push(nombreSorteo);
         asignarTextoElemento("h2", "NOMBRE AGREGADO A LA LISTA.<br>INGRESA UN NUEVO NOMBRE");
