@@ -13,11 +13,11 @@
 - [AUTOR 🧑‍💻](#autor-)
 
 
-## DESCRIPCION DEL PROYECTO  ✨
+## DESCRIPCION DEL PROYECTO ✨
 
 El proyecto amigo secreto consta de una pagina web en donde puedes agregar una lista de amigos y asi elegir a uno de ellos de forma aleatoria.
 
-## INSTRUCCIONES DE USO  📋
+## INSTRUCCIONES DE USO 📋
 
 Para hacer uso de **AMIGO SECRETO** debes seguir los siguientes pasos: 
 
@@ -27,13 +27,13 @@ Para hacer uso de **AMIGO SECRETO** debes seguir los siguientes pasos:
 2. Al hacer click en el botón **"Añadir"** se agrega el nombre a la lista.
 3. Al hacer click en el botón **"Sortear amigo"** se seleccionara de forma aleatoria un amigo.
 
-## FUNCIONALIDADES  📃
+## FUNCIONALIDADES 📃
 
 - Puedes añadir el nombre de tus amigos a la lista.
 - Podras visualizar la lista de amigos.
 - Seleccionara a un amigo de manera aleatoria.
 
-## ESTADO DEL PROYECTO  🛠️
+## ESTADO DEL PROYECTO 🛠️
 
 El proyecto se encuentra ya en su fase final cumpliendo con las funcionalidades establecidas.
 
@@ -42,17 +42,17 @@ El proyecto se encuentra ya en su fase final cumpliendo con las funcionalidades 
 - Nueva función para resetear el juego con un nuevo botón.
 - Cambios de diseño.
 
-## TECNOLOGIAS UTILIZADAS  🌐
+## TECNOLOGIAS UTILIZADAS 🌐
 
 - CSS 🎨
 - HTML 📝
 - JavaScript 💻
 
-## ACCESO AL PROYECTO  🔗
+## ACCESO AL PROYECTO 🔗
 
 Podras acceder al proyecto mediante el siguiente enlace:
 
-## AUTOR  🧑‍💻 
+## AUTOR 🧑‍💻 
 
 **Jairo Alonso Acevedo Hernandez**  
 *Estudiante*   
