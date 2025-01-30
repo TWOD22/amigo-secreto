@@ -7,7 +7,7 @@
 - [DESCRIPCION DEL PROYECTO](#descripcion-del-proyecto-)
 - [INSTRUCCIONES DE USO](#instrucciones-de-uso-)
 - [FUNCIONALIDADES](#funcionalidades-)
-- [ESTADO DEL PROYECTO](#estado-del-proyecto-)
+- [ESTADO DEL PROYECTO](#estado-del-proyecto-%EF%B8%8F)
 - [TECNOLOGIAS UTILIZADAS](#tecnologias-utilizadas-)
 - [ACCESO AL PROYECTO](#acceso-al-proyecto-)
 - [AUTOR](#autor-)
