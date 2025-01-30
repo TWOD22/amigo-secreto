@@ -17,7 +17,9 @@ function ingresarNombre (){
     nombreSorteo = nombreSorteo.toUpperCase(nombreSorteo);
     if (nombreSorteo == ""){
         asignarTextoElemento ("h2","No Puedes Añadir Un Espacio En Blanco<br>Ingrese un nuevo nombre.")
-    } else{
+    } else if (/\d/.test(nombreSorteo)){
+            asignarTextoElemento ("h2","No Puedes Introduccir Numeros<br>Ingrese un nuevo nombre.")
+    } else {
         listaDeAmigos.push(nombreSorteo);
         console.log(listaDeAmigos);
         asignarTextoElemento("h2", "Nombre añadido correctamente.<br>Ingrese un nuevo nombre." );
