@@ -15,9 +15,9 @@ function ingresarNombre (){
     let nombreSorteo = document.getElementById("amigo").value;
     nombreSorteo = nombreSorteo.toUpperCase(nombreSorteo);
     if (nombreSorteo == ""){
-        asignarTextoElemento ("h2","NO PUEDES DEJAR ESPACIO EN BLANCO<br>INGRESA UN NOMBRE")
+        asignarTextoElemento ("h2","NO PUEDES DEJAR ESPACIO EN BLANCO<br>INGRESA UN NOMBRE");
     } else if (/\d/.test(nombreSorteo)){
-            asignarTextoElemento ("h2","NO PUEDES ESCRIBIR NUMEROS<br>INGRESA UN NOMBRE")
+            asignarTextoElemento ("h2","NO PUEDES ESCRIBIR NUMEROS<br>INGRESA UN NOMBRE");
             limpiarCaja("#amigo");
     } else {
         listaDeAmigos.push(nombreSorteo);
@@ -41,7 +41,7 @@ function visualizarLista (){
 
 function sorteoLista (){
     if (listaDeAmigos.length===0){
-        asignarTextoElemento("h2","NO SE PUEDE REALIZAR EL SORTEO <br> DEBES INGRESAR UN NOMBRE")
+        asignarTextoElemento("h2","NO SE PUEDE REALIZAR EL SORTEO <br> DEBES INGRESAR UN NOMBRE");
     }else{
         let numeroAleatorio = Math.floor(Math.random()*listaDeAmigos.length);
         amigoSecreto = listaDeAmigos[numeroAleatorio];
