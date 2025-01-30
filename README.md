@@ -4,11 +4,17 @@
 
 ## INDICE
 
+- [Descripción del Proyecto](#descripción-del-proyecto-✨)
+- [Instrucciones de Uso](#instrucciones-de-uso-📋)
+- [Funcionalidades](#funcionalidades-📃)
+- [Estado del Proyecto](#estado-del-proyecto-✅)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas-🌐)
+- [Acceso al Proyecto](#acceso-al-proyecto-🌐)
+- [Autor](#autor-👤)
+
 ## DESCRIPCION DEL PROYECTO✨
 
 El proyecto amigo secreto consta de una pagina web en donde puedes agregar una lista de amigos y asi elegir a uno de ellos de forma aleatoria.
-
-###### Proyecto realizado con el apoyo de **#AluraLatam** y **#Oracle** a traves del Programa ONE.
 
 ## INSTRUCCIONES DE USO 📋
 
@@ -26,7 +32,7 @@ Para hacer uso de **AMIGO SECRETO** debes seguir los siguientes pasos:
 - Podras visualizar la lista de amigos.
 - Seleccionara a un amigo de manera aleatoria.
 
-## ESTADO DEL PROYECTO
+## ESTADO DEL PROYECTO 🛠️
 
 El proyecto se encuentra ya en su fase final cumpliendo con las funcionalidades establecidas.
 
@@ -35,18 +41,19 @@ El proyecto se encuentra ya en su fase final cumpliendo con las funcionalidades 
 - Nueva función para resetear el juego con un nuevo botón.
 - Cambios de diseño.
 
-## TECNOLOGIAS UTILIZADAS
+## TECNOLOGIAS UTILIZADAS 🌐
 
-- CSS
-- HTML
-- JavaScript
+- CSS 🎨
+- HTML 📝
+- JavaScript 💻
 
-## ACCESO AL PROYECTO 
+## ACCESO AL PROYECTO 🔗
 
 Podras acceder al proyecto mediante el siguiente enlace:
 
-## AUTOR 
+## AUTOR 🧑‍💻 
 
-**Jairo Alonso Acevedo Hernandez**
-*Estudiante* 
-[GitHub](https://github.com/TWOD22)
+**Jairo Alonso Acevedo Hernandez**  
+*Estudiante*   
+[GitHub](https://github.com/TWOD22)  
+###### Proyecto realizado con el apoyo de **#AluraLatam** y **#Oracle** a traves del Programa ONE.
