@@ -1,7 +1,6 @@
 let listaDeAmigos = [];
 let amigoSecreto = "";
 
-//Asigna texto (elemento HTML, Texto a)
 function asignarTextoElemento (elemento,texto){
     let elementoHTML = document.querySelector(elemento);
     elementoHTML.innerHTML = texto;
@@ -21,7 +20,6 @@ function ingresarNombre (){
             asignarTextoElemento ("h2","No Puedes Introduccir Numeros<br>Ingrese un nuevo nombre.")
     } else {
         listaDeAmigos.push(nombreSorteo);
-        console.log(listaDeAmigos);
         asignarTextoElemento("h2", "Nombre añadido correctamente.<br>Ingrese un nuevo nombre." );
         visualizarLista();
         limpiarCaja("#amigo");
@@ -46,7 +44,7 @@ function sorteoLista (){
     }else{
         let numeroAleatorio = Math.floor(Math.random()*listaDeAmigos.length);
         amigoSecreto = listaDeAmigos[numeroAleatorio];
-        asignarTextoElemento("h2",`Tu amigo secreto es: ${amigoSecreto}`);
+        asignarTextoElemento("h2",`¡TU AMIGO SECRETO ES: ${amigoSecreto}!`);
     }
     return;
 }
